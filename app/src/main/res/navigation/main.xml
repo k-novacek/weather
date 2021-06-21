@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    app:startDestination="@id/placeFragment">
+    <fragment
+        android:id="@+id/placeFragment"
+        android:name="kevin.weather.ui.place.PlaceFragment"
+        android:label="PlaceFragment">
+        <argument
+            android:name="name"
+            app:argType="string"/>
+        <argument
+            android:name="state"
+            app:argType="string"/>
+    </fragment>
+</navigation>

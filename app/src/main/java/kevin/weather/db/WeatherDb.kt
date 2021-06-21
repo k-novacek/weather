@@ -12,5 +12,5 @@ import kevin.weather.vo.Place
     exportSchema = false
 )
 abstract class WeatherDb : RoomDatabase() {
-
+    abstract  fun placeDao(): PlaceDao
 }
